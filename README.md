@@ -1,11 +1,34 @@
-# React + TypeScript + Vite
+# HireQuotient Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website is built using React + Typescript + Vite.
 
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Setup this project
+
+If you want to run this project locally, follow these steps:
+
+1. Install the NPM dependencies. Use following commands:
+
+    ```bash
+    npm install
+    ```
+
+2. Run the frontend server using the command:
+
+    ```bash
+    npm run dev
+    ```
+
+3. Make an optimized build and run it using following command:
+
+    ```bash
+    npm run build
+    npm run preview
+    ```
 
 ## Expanding the ESLint configuration
 

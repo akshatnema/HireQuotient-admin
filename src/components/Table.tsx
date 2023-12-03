@@ -13,10 +13,8 @@ export default function TableComponent({ users, filteredUsers, setUsers, setFilt
     pageSize: number;
 }) {
 
-
     const [editingUserName, setEditingUserName] = useState<string | null>(null);
     const [editUserName, setEditUserName] = useState<string>("");
-
 
     const handleSelectAll = () => {
         const allRowsSelected = selectedRows.length === pageSize;
